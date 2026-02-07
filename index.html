@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Propose Day 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url("https://i.pinimg.com/originals/2f/9d/34/2f9d34b4c8b3a8f6e7b88bfae3c9e52d.jpg") no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      backdrop-filter: blur(2px);
+    }
+
+    .box {
+      background: rgba(0, 0, 0, 0.55);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #ff9acb;
+    }
+
+    button {
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background: #ff4f8b;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #ff1f6d;
+    }
+
+    .love {
+      display: none;
+      font-size: 18px;
+      margin-top: 20px;
+      color: #ffd1e8;
+    }
+  </style>
+</head>
+<body>
+
+<audio autoplay loop>
+  <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+</audio>
+
+<div class="box">
+  <h1>Happy Propose Day 💍</h1>
+  <p>Hey Shambhavi 🌸</p>
+  <p>Every moment with you feels like an anime love story…</p>
+
+  <button onclick="showLove()">Click Here ❤️</button>
+
+  <div class="love" id="loveText">
+    💖 I love you Shambhavi 💖 <br><br>
+    Will you be mine forever? 💍 <br><br>
+    <b>– From Mannat</b>
+  </div>
+</div>
+
+<script>
+  function showLove() {
+    document.getElementById("loveText").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
 
